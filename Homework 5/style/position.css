@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.block{
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.box{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+
+.box1{
+    border: 2px solid red;
+    top: 60px;
+    left: 30px;
+    z-index: 2;
+}
+.box2{
+    border: 2px solid blue;
+    top: 60px;
+    left: 120px;
+    z-index: 1;
+}
+.box3{
+    border: 2px solid green;
+    top: 60px;
+    left: 210px;
+    z-index: 2;
+}
+
+.box4{
+    border: 2px solid red;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+.box5{
+    border: 2px solid blue;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}
+.box6{
+    border: 2px solid green;
+    top: 110px;
+    left: 110px;
+    z-index: 2;
+}
+
+.box7{
+    background-color:  red;
+    top: 30px;
+    left: 30px;
+}
+.box8{
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+}
+.box9{
+    background-color: green;
+    top: 110px;
+    left: 110px;
+}
+
+.box10{
+    background-color:  red;
+    top: 30px;
+    left: 30px;
+}
+.box11{
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}
+.box12{
+    background-color: green;
+    top: 110px;
+    left: 110px;
+}
+
+.box13{
+    background-color:  red;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+.box14{
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+    z-index: 0;
+}
+.box15{
+    background-color: green;
+    top: 110px;
+    left: 110px;
+    z-index: 1;
+}
+
+.box16{
+    background-color:  red;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+.box17{
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+    z-index: 1;
+}
+.box18{
+    background-color: green;
+    top: 110px;
+    left: 110px;
+    z-index: 0;
+}
